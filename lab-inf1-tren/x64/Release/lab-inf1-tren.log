@@ -1,0 +1,7 @@
+﻿  Checking.cpp
+C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\Checking.cpp(6,14): warning C4305: =: усечение из "double" в "float"
+  Создание кода
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 11 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  lab-inf1-tren.vcxproj -> C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\x64\Release\lab-inf1-tren.exe
