@@ -2,9 +2,10 @@
 using namespace std;
 int main()
 {
-	double a, b, c;
-	a = 1 + 2;
-	b = 23 + 90;
+	float a, b, c;
+	a = 1;
+	a = 2.0 / 3;
+	b = a + 90;
 	c = 34.0 * 87;
 	cout << a << endl;
 	cout << b << endl;

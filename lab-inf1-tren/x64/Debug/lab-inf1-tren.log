@@ -1,2 +1,3 @@
 ﻿  Checking.cpp
+C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\Checking.cpp(7,13): warning C4305: =: усечение из "double" в "float"
   lab-inf1-tren.vcxproj -> C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\x64\Debug\lab-inf1-tren.exe
