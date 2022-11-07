@@ -1,15 +1,43 @@
 #include <iostream>
 using namespace std;
+
+int ris(int a, int b);
+
 int main()
 {
-	float a, b, c, x, y, z, otv;
-	a = (5 + 1.0 / 2) / 2.2 + 6 + 2.0 / 3;
-	b = 0.75 + 4 + 1.0 / 4 - 0.8 * (6 + 2.0 / 3);
-	x = (4 + 1.0 / 3 + 9) * 0.75;
-	y = 6.25 - (3 + 3.0 / 4);
-	c = (a / b) / (1 + 3.0 / 7);
-	z = x / y;
-	otv = c - z;
-	cout << "Otvet: " << otv;	
+	int a, b, z;
+	/*cin >> a;
+	cin >> b;*/
+	a = 5;
+	b = 8;
+	z = ris(a, b);
+	return 0;
+}
+
+int ris(int a, int b)
+{
+	for (int i = a; i <= b; i++)
+	{
+		for (int y = 1; y <= i; y++)
+		{
+			for (int x = 1; x <= i; x++)
+			{
+				if (x % 2 == 1)
+				{
+					if ((x <= (i / 2 + 1 - (y - 1))) && (x >= (i / 2 + 1 + (y - 1))))
+
+						cout << "#";
+
+					else
+
+						cout << ".";
+				}
+				else
+					cout << ".";
+			}
+		cout << endl;
+		}
+		cout << endl << "new figure" << endl;
+	}
 	return 0;
 }
