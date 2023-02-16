@@ -1,7 +1,16 @@
-﻿  Checking.cpp
-C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\Checking.cpp(6,14): warning C4305: =: усечение из "double" в "float"
-  Создание кода
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-  All 11 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Создание кода завершено
-  lab-inf1-tren.vcxproj -> C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\x64\Release\lab-inf1-tren.exe
+﻿  main.cpp
+C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\Header.h(10,7): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\Header.h(10,7): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\main.cpp(9,9): error C2872: vector: неоднозначный символ
+C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\Header.h(10,1): message : может быть "int vector"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(496,1): message : или       "std::vector"
+C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\main.cpp(9,10): error C2062: тип "double" не требуется
+C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\main.cpp(24,7): error C2872: vector: неоднозначный символ
+C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\Header.h(10,1): message : может быть "int vector"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(496,1): message : или       "std::vector"
+C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\main.cpp(24,7): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\main.cpp(24,7): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\main.cpp(24,1): error C2086: int vector: переопределение
+C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\Header.h(10): message : см. объявление "vector"
+C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\main.cpp(25,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\artem\Documents\playing_with_git\Proba.new\lab-inf1-tren\main.cpp(25,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
