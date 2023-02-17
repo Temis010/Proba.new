@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\main.cpp(26,16): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  training_labs.vcxproj -> C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\x64\Debug\training_labs.exe

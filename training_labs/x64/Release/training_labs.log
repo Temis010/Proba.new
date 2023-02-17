@@ -1,0 +1,10 @@
+﻿  functions.cpp
+C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\functions.cpp(4,11): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\functions.cpp(9,12): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\functions.cpp(14,15): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  Создание кода
+  4 of 105 functions ( 3.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  training_labs.vcxproj -> C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\x64\Release\training_labs.exe
