@@ -1,3 +1,40 @@
 ﻿  main.cpp
-C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\main.cpp(26,16): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\main.cpp(16,53): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\main.cpp(24,56): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\main.cpp(29,57): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\main.cpp(32,51): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\main.cpp(32,39): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\main.cpp(32,98): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\main.cpp(32,86): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\main.cpp(43,16): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\main.cpp(75,17): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\main.cpp(75,28): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
   training_labs.vcxproj -> C:\Users\artem\Documents\playing_with_git\Proba.new\training_labs\x64\Debug\training_labs.exe

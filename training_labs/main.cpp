@@ -8,13 +8,25 @@ vector<double> intersect(double step, int rounding_to_n_sign, float(*func1)(floa
 
 int main()
 {
-	vector <double> data = intersect(0.00001, 6, func1, func2);//массив с точками пересечения функций
+	vector <double> data = intersect(0.00001, 5, func1, func2);//массив с точками пересечения функций
 
-	cout << "Intersection points: ";
+	cout << "Intersection points of functions: ";
 	for (int i = 0; i < data.size(); i++)
 	{
-		cout << data.at(i) << ' ';//вывод точек пересечения
+		cout << '(' << data.at(i) << ", " << func1(data.at(i)) << ')' << ' ';//вывод точек пересечения
 	}
+	cout << endl;
+
+	vector<double> inter1 = intersect(0.001, 5, func1);
+	vector<double> inter2 = intersect(0.001, 5, func2);
+	cout << "intersection of the function1 with the OX axis: ";
+	for (int i = 0; i < inter1.size(); i++)
+		cout << '('<< inter1.at(i) << ", " << func1(inter1.at(i)) << ')' << ' ';
+	cout << endl;
+
+	cout << "intersection of the function2 with the OX axis: ";
+	for (int i = 0; i < inter2.size(); i++)
+		cout << '(' << inter2.at(i) << ", " << func2(inter2.at(i)) << ')'  << ' ';
 	cout << endl;
 
 	double square = abs(simpsons_(data.at(0), data.at(1), 10, func1) - simpsons_(data.at(0), data.at(1), 10, func2));//нахождение площади

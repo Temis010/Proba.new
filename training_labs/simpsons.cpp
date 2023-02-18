@@ -7,7 +7,7 @@ float simpsons_(float ll, float ul, int n, float(*func)(float))
     float h = (ul - ll) / n;
 
     // Array for storing value of x and f(x)
-    float x[10], fx[10];
+    float x[11], fx[11];
 
     // Calculating values of x and f(x)
     for (int i = 0; i <= n; i++) 
